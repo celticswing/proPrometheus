@@ -364,8 +364,6 @@ void CConfig::Setup()
 	SetupValue(g_Options.LegitBot.Triggerbot.Filter.Arms, false, ("Triggerbot"), ("FilterArms"));
 	SetupValue(g_Options.LegitBot.Triggerbot.Filter.Legs, false, ("Triggerbot"), ("FilterLegs"));
 
-	SetupValue(g_Options.LegitBot.LegitAA, false, ("Legitbot"), ("LegitAA"));
-
 	//VISUALS
 	SetupValue(g_Options.Visuals.Enabled, false, ("Visuals"), ("Enabled"));
 	SetupValue(g_Options.Visuals.TeamESP, false, ("Visuals"), ("TeamESP"));
