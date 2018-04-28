@@ -251,6 +251,11 @@ void visuals::OnPaintTraverse(C_BaseEntity* local)
 
 			if (pLocal->GetTeamNum() != entity->GetTeamNum())
 			{
+//				if you wanted a w2c check, do this:
+				
+//				if (g_Render->WorldToScreen(pos3D, pos))
+//					continue;
+				
 				Vector eyeangles, poopvec;
 				int screen_w, screen_h;
 				g_Engine->GetScreenSize(screen_w, screen_h);
