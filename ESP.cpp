@@ -124,7 +124,7 @@ void visuals::OnPaintTraverse(C_BaseEntity* local)
 
 			if (MiscFunctions::IsKnife(pWeapon) || MiscFunctions::IsGrenade(pWeapon) || MiscFunctions::IsBomb(pWeapon))
 			{
-				g_Render->DrawFilledCircle2(xs, xs, 5, 50, Color(101, 101, 101, 170));
+				g_Render->DrawFilledCircle2(xs, ys, 5, 50, Color(101, 101, 101, 170));
 			}
 			else if (MiscFunctions::IsSniper(pWeapon) && g_Options.Visuals.noscopeborder && local->IsScoped())
 			{
@@ -132,7 +132,7 @@ void visuals::OnPaintTraverse(C_BaseEntity* local)
 			}
 			else if (pWeapon->AWall())
 			{
-				g_Render->DrawFilledCircle2(xs, xs, 5, 50, CanWallbang(damage) ? Color(130, 241, 13) : Color(255, 102, 102));
+				g_Render->DrawFilledCircle2(xs, ys, 5, 50, CanWallbang(damage) ? Color(130, 241, 13) : Color(255, 102, 102));
 			}
 		}
 
