@@ -251,10 +251,11 @@ void visuals::OnPaintTraverse(C_BaseEntity* local)
 
 			if (pLocal->GetTeamNum() != entity->GetTeamNum())
 			{
-//				if you wanted a w2c check, do this:
+				if (entity->GetClientClass()->m_ClassID == (int)ClassID::CCSPlayer) //hostages show up for some reason
+					continue;
 				
-//				if (g_Render->WorldToScreen(pos3D, pos))
-//					continue;
+				if (g_Render->WorldToScreen(pos3D, pos)) //checks WorldToScreen and if so, continue
+					continue;
 				
 				Vector eyeangles, poopvec;
 				int screen_w, screen_h;
