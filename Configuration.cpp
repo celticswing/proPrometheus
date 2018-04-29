@@ -316,39 +316,39 @@ void CConfig::Setup()
 	SetupValue(g_Options.LegitBot.sniper_recoil_max, 0, ("Legitbot"), ("RCS-max-sniper"));
 
 	//WEAPONS SETTS 
-	SetupValue(g_Options.LegitBot.FilterMainWeapons.Headwpmain, false, ("Legitbot"), ("WeponsSettings"));
-	SetupValue(g_Options.LegitBot.FilterMainWeapons.Neckwpmain, false, ("Legitbot"), ("WeponsSettings"));
-	SetupValue(g_Options.LegitBot.FilterMainWeapons.Chestwpmain, false, ("Legitbot"), ("WeponsSettings"));
-	SetupValue(g_Options.LegitBot.FilterMainWeapons.Stomachwpmain, false, ("Legitbot"), ("WeponsSettings"));
-	SetupValue(g_Options.LegitBot.FilterMainWeapons.multiboneswpmain, false, ("Legitbot"), ("WeponsSettings"));
+	SetupValue(g_Options.LegitBot.FilterMainWeapons.Headwpmain, false, ("Legitbot"), ("Headwpmain"));
+	SetupValue(g_Options.LegitBot.FilterMainWeapons.Neckwpmain, false, ("Legitbot"), ("Neckwpmain"));
+	SetupValue(g_Options.LegitBot.FilterMainWeapons.Chestwpmain, false, ("Legitbot"), ("Chestwpmain"));
+	SetupValue(g_Options.LegitBot.FilterMainWeapons.Stomachwpmain, false, ("Legitbot"), ("Stomachwpmain"));
+	SetupValue(g_Options.LegitBot.FilterMainWeapons.multiboneswpmain, false, ("Legitbot"), ("multiboneswpmain"));
 
 	//PISTOLS
-	SetupValue(g_Options.LegitBot.FilterPistolWeapons.Headwppis, false, ("Legitbot"), ("WeponsSettings"));
-	SetupValue(g_Options.LegitBot.FilterPistolWeapons.Neckwppis, false, ("Legitbot"), ("WeponsSettings"));
-	SetupValue(g_Options.LegitBot.FilterPistolWeapons.Chestwppis, false, ("Legitbot"), ("WeponsSettings"));
-	SetupValue(g_Options.LegitBot.FilterPistolWeapons.Stomachwppis, false, ("Legitbot"), ("WeponsSettings"));
-	SetupValue(g_Options.LegitBot.FilterPistolWeapons.multiboneswppis, false, ("Legitbot"), ("WeponsSettings"));
+	SetupValue(g_Options.LegitBot.FilterPistolWeapons.Headwppis, false, ("Legitbot"), ("Headwppis"));
+	SetupValue(g_Options.LegitBot.FilterPistolWeapons.Neckwppis, false, ("Legitbot"), ("Neckwppis"));
+	SetupValue(g_Options.LegitBot.FilterPistolWeapons.Chestwppis, false, ("Legitbot"), ("Chestwppis"));
+	SetupValue(g_Options.LegitBot.FilterPistolWeapons.Stomachwppis, false, ("Legitbot"), ("Stomachwppis"));
+	SetupValue(g_Options.LegitBot.FilterPistolWeapons.multiboneswppis, false, ("Legitbot"), ("multiboneswppis"));
 
 	//SNIPER
-	SetupValue(g_Options.LegitBot.FilterSniperWeapons.HeadwpSnip, false, ("Legitbot"), ("WeponsSettings"));
-	SetupValue(g_Options.LegitBot.FilterSniperWeapons.NeckwpSnip, false, ("Legitbot"), ("WeponsSettings"));
-	SetupValue(g_Options.LegitBot.FilterSniperWeapons.ChestwpSnip, false, ("Legitbot"), ("WeponsSettings"));
-	SetupValue(g_Options.LegitBot.FilterSniperWeapons.StomachwpSnip, false, ("Legitbot"), ("WeponsSettings"));
-	SetupValue(g_Options.LegitBot.FilterSniperWeapons.multiboneswpSnip, false, ("Legitbot"), ("WeponsSettings"));
+	SetupValue(g_Options.LegitBot.FilterSniperWeapons.HeadwpSnip, false, ("Legitbot"), ("HeadwpSnip"));
+	SetupValue(g_Options.LegitBot.FilterSniperWeapons.NeckwpSnip, false, ("Legitbot"), ("NeckwpSnip"));
+	SetupValue(g_Options.LegitBot.FilterSniperWeapons.ChestwpSnip, false, ("Legitbot"), ("ChestwpSnip"));
+	SetupValue(g_Options.LegitBot.FilterSniperWeapons.StomachwpSnip, false, ("Legitbot"), ("StomachwpSnip"));
+	SetupValue(g_Options.LegitBot.FilterSniperWeapons.multiboneswpSnip, false, ("Legitbot"), ("multiboneswpSnip"));
 
 	//SMGWEAPONS
-	SetupValue(g_Options.LegitBot.FiltersmgWeapons.Headwpsmg, false, ("Legitbot"), ("WeponsSettings"));
-	SetupValue(g_Options.LegitBot.FiltersmgWeapons.Neckwpsmg, false, ("Legitbot"), ("WeponsSettings"));
-	SetupValue(g_Options.LegitBot.FiltersmgWeapons.Chestwpsmg, false, ("Legitbot"), ("WeponsSettings"));
-	SetupValue(g_Options.LegitBot.FiltersmgWeapons.Stomachwpsmg, false, ("Legitbot"), ("WeponsSettings"));
-	SetupValue(g_Options.LegitBot.FiltersmgWeapons.multiboneswpsmg, false, ("Legitbot"), ("WeponsSettings"));
+	SetupValue(g_Options.LegitBot.FiltersmgWeapons.Headwpsmg, false, ("Legitbot"), ("Headwpsmg"));
+	SetupValue(g_Options.LegitBot.FiltersmgWeapons.Neckwpsmg, false, ("Legitbot"), ("Neckwpsmg"));
+	SetupValue(g_Options.LegitBot.FiltersmgWeapons.Chestwpsmg, false, ("Legitbot"), ("Chestwpsmg"));
+	SetupValue(g_Options.LegitBot.FiltersmgWeapons.Stomachwpsmg, false, ("Legitbot"), ("Stomachwpsmg"));
+	SetupValue(g_Options.LegitBot.FiltersmgWeapons.multiboneswpsmg, false, ("Legitbot"), ("multiboneswpsmg"));
 
 	//HEABYWEAPONS
-	SetupValue(g_Options.LegitBot.FilterheavyWeapons.Headwphv, false, ("Legitbot"), ("WeponsSettings"));
-	SetupValue(g_Options.LegitBot.FilterheavyWeapons.Neckwphv, false, ("Legitbot"), ("WeponsSettings"));
-	SetupValue(g_Options.LegitBot.FilterheavyWeapons.Chestwphv, false, ("Legitbot"), ("WeponsSettings"));
-	SetupValue(g_Options.LegitBot.FilterheavyWeapons.Stomachwphv, false, ("Legitbot"), ("WeponsSettings"));
-	SetupValue(g_Options.LegitBot.FilterheavyWeapons.multibonewphv, false, ("Legitbot"), ("WeponsSettings"));
+	SetupValue(g_Options.LegitBot.FilterheavyWeapons.Headwphv, false, ("Legitbot"), ("Headwphv"));
+	SetupValue(g_Options.LegitBot.FilterheavyWeapons.Neckwphv, false, ("Legitbot"), ("Neckwphv"));
+	SetupValue(g_Options.LegitBot.FilterheavyWeapons.Chestwphv, false, ("Legitbot"), ("Chestwphv"));
+	SetupValue(g_Options.LegitBot.FilterheavyWeapons.Stomachwphv, false, ("Legitbot"), ("Stomachwphv"));
+	SetupValue(g_Options.LegitBot.FilterheavyWeapons.multibonewphv, false, ("Legitbot"), ("multibonewphv"));
 
 
 
@@ -398,11 +398,13 @@ void CConfig::Setup()
 	SetupValue(g_Options.Visuals.BombCarrier, false, ("Visuals"), ("BombCarrier"));
 	SetupValue(g_Options.Visuals.AAIndicator, false, ("Visuals"), ("AA Indicator"));
 	SetupValue(g_Options.Visuals.Hostage, false, ("Visuals"), ("Hostage"));
+	SetupValue(g_Options.Visuals.HostageBox, false, ("Visuals"), ("HostageBox"));
+	SetupValue(g_Options.Visuals.Chicken, false, ("Visuals"), ("Chicken"));
+	SetupValue(g_Options.Visuals.ChickenBox, false, ("Visuals"), ("ChickenBox"));
 	SetupValue(g_Options.Visuals.Flashed, false, ("Visuals"), ("Flashed"));
 	SetupValue(g_Options.Visuals.Distance, false, ("Visuals"), ("Distance"));
 	SetupValue(g_Options.Visuals.Scoped, false, ("Visuals"), ("Scoped"));
 	//	SetupValue(g_Options.Visuals.Reloading, false, ("Visuals"), ("Reloading"));
-	SetupValue(g_Options.Visuals.Hostage, false, ("Visuals"), ("Hostage"));
 	SetupValue(g_Options.Visuals.IsHasDefuser, false, ("Visuals"), ("HasDefuser"));
 	SetupValue(g_Options.Visuals.IsDefusing, false, ("Visuals"), ("IsDefusing"));
 	SetupValue(g_Options.Visuals.Grenades, 0, ("Visuals"), ("Grenades"));
