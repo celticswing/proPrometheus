@@ -1,6 +1,6 @@
 # Prometheus---Updated
 ok jesus christ i guess i need to make this apparent.
-
+s̶t̶r̶i̶k̶e̶t̶h̶r̶o̶u̶g̶h̶ ̶t̶e̶x̶t̶
 the cheat is unstable, it can be fixed, now leave me alone.
 
 on a sidenote:
