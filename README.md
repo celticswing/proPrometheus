@@ -1,7 +1,7 @@
 # Prometheus---Updated
 ok jesus christ i guess i need to make this apparent.
 
-the cheat is instable, it can be fixed, now leave me alone.
+the cheat is unstable, it can be fixed, now leave me alone.
 
 on a sidenote:
 
