@@ -7,7 +7,7 @@ on a sidenote:
 
 don't put any aimbot keys to your mouse side/middle buttons.
 
-stuff doesn't save (like 4 things)
+ ̶s̶t̶u̶f̶f̶ ̶d̶o̶e̶s̶n̶'̶t̶ ̶s̶a̶v̶e̶ ̶(̶l̶i̶k̶e̶ ̶4̶ ̶t̶h̶i̶n̶g̶s̶)̶ (fixed i think)
 
 spamming the fullupdate will cause a crash
 
