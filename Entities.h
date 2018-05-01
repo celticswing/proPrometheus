@@ -1520,7 +1520,14 @@ public:
 		static int meme = NetVarManager->GetOffset("DT_CSPlayer", "m_iShotsFired");
 		return *(int*)((uintptr_t)this + meme);
 	}
-	
+	bool IsSpotted()
+	{
+		return (bool*)((DWORD)this + offsetz.DT_BaseEntity.m_bSpotted);
+	}
+	bool* IsSpottedPtr()
+	{
+		return (bool*)((DWORD)this + offsetz.DT_BaseEntity.m_bSpotted);
+	}
 	float GetNextAttack()
 	{
 		return *(float*)((DWORD)this + 0x2D60);
