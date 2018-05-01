@@ -572,9 +572,7 @@ void visuals::OnPaintTraverse(C_BaseEntity* local)
 				BulletTrace(entity, Color(int(g_Options.Colors.BulletTraceColor[0] * 255.f), int(g_Options.Colors.BulletTraceColor[1] * 255.f), int(g_Options.Colors.BulletTraceColor[2] * 255.f)));
 			}
 			if (g_Options.Misc.radaringame)
-			{
-				Radar(entity);
-			}
+				*entity->IsSpottedPtr() = true;
 //			if (g_Options.Visuals.AmmoBox)
 //			{
 //				AmmoBox(rect, entity, pColor);
